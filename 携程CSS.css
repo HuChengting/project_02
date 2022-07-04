@@ -1,0 +1,85 @@
+body{
+    /* 最大最小宽度 */
+    max-width: 540px;
+    min-width: 320px;
+
+    margin: 0 auto;
+    font: normal 14px/1.5 Tahoma,"Lucida Grande",Verdana,"Microsoft Yahei",STXihei,hei;
+    color: #000;
+    background-color: #eee;
+
+    /* 如果它溢出了元素的内容区-剪辑div元素的左/右边缘内容： */
+    overflow-x: hidden;
+    /* tap按钮或者链接时,就会出现一个半透明的灰色背景，设置属性: */
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.model-1{
+    background-color: #fff;
+    padding: 12px 12px 6px 12px;
+}
+
+.index-page-top-wrap{
+    border: 1.8px solid #0086f6;
+    display: flex;
+    border-radius: 18px;
+    padding: 3px 3px;
+
+    /* 设置固定位置 */
+    /* position: fixed;
+    top: 0; */
+}
+
+.index-page-top-wrap span:nth-child(1)::before{
+    content: "\e92a";
+    width: 20px;
+    margin: 0 5px;
+}
+
+.index-page-top-wrap span:nth-child(2){
+    color: #bbb;
+}
+
+.js-index-page{
+    display: flex;
+    /* flex-direction: column; */
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.nav-list{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.items{
+    flex: 1;
+}
+
+.items a{
+    display: flex;
+    flex-direction: column;
+    background: url(../携程/携程素材/hotel.png) no-repeat;
+    background-size: 121px auto;
+}
+
+.items a span{
+    flex: 1;
+}
+
+.main-nav-icon{
+    background: url(../携程/携程素材/hotel.png) no-repeat;
+    background-size: 121px auto;
+}
+
+
+
